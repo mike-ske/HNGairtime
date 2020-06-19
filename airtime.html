@@ -28,31 +28,38 @@
 		<div class="container">
 			<h4 class="q">Who would you like to top up </h4>
 			<div class="row inputs-div">
+				<div class="col-md-1" style="border:none;"></div>
+				<div class="col-md-3">
+					<p>Name/Track</p>
+					<span class="initials">AA</span>
+					<select name="username" class="user">
 
-				<div class="col-md-4">
-					<span>Name/Track</span>
-					<select name="username">
 						<option value="username">
-							<span>Initials</span>--Select-Name--<i class="fa fa-user"></i><i class="fa fa-arow-down"></i>
+							Select-Name<i class="fa fa-arow-down"></i>
 						</option>
 					</select>
+					<i class="fa fa-user"></i>
+					<hr class="hruser">
 				</div>
-				<div class="col-md-3 ">
-					<span>Enter recipient phone number</span>
-					<span class="phone-number">+234</span><input type="text" name="phone-number">
+				<div class="col-md-2 ">
+					<p>Enter&nbsp;recipient&nbsp;phone&nbsp;number</p>
+					<span class="phone-number">+234</span><input type="text" name="phone-number" class="phone">
+					<hr class="hrphone">
 				</div>
-				<div class="col-md-3">
-					<span>Amount</span>
-					<input type="text" name="amount">
+				<div class="col-md-2">
+					<p>Amount</p>
+					<span class="amount">N</span><input type="text" name="amount" class="amt">
+					<hr class="hramt">
 				</div>
 				<div class="col-md-1">
-					<span>Network</span>
-					<select name="network">
+					<p>Network</p>
+					<select name="network" class="network">
 						<option value="mtn">MTN</option>
 						<option value="airtel">Airtel</option>
 						<option value="9mobile">9mobile</option>
 						<option value="glo">glo</option>
 					</select>
+					<hr class="hrnetwork">
 				</div>
 			</div>
 			<div class="container">
